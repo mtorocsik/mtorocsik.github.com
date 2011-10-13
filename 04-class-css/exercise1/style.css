@@ -50,4 +50,26 @@ table {
 	border-spacing: 0;
 }
 
+#main-content {
+display:block;
+ position:relative;
+  margin:0 auto;
+  width:960px;
+}
+
+}
+#left {
+position:absolute; 
+left:0px; 
+top:0px; 
+width:200px;
+}
+
+#right {
+position:absolute; 
+right:0px; 
+top:0px; 
+width:200px;
+}
+
 
