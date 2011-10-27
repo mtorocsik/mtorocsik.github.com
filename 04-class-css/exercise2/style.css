@@ -50,3 +50,47 @@ table {
 	border-spacing: 0;
 }
 
+#site-wrapper {
+	width: 100%;
+	height: 20%;
+	margin: 0 auto;
+	position: absolute;
+	background-color: yellow;
+
+}	
+#site-header {
+	width: 50%;
+	height: 100%;
+	margin: 10% auto;
+	position: absolute;
+	background-image: images/logo.png;
+}
+
+#top-nav {
+	float:right;
+	position: absolute;
+}	
+
+#menu-wrapper {
+	position:absolute;
+	}
+	
+#main-menu {
+	position:absolute;
+	}
+	
+#content-wrapper {
+	position:relative;
+	}
+	
+#content {
+	position:relative;
+	}	
+	
+#page {
+	}
+	
+#sidebar {
+	}
+	
+	
