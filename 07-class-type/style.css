@@ -1,3 +1,6 @@
+
+
+/* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,3 +49,125 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+section {
+margin:10px auto 10px auto;
+width:925px;
+height:450px;
+padding:3%;
+border-top-style: solid;
+border-top-width: 5px;
+}
+
+article#left {
+float:left;
+width:45%;
+}
+
+article#right {
+float:left;
+width:45%;
+margin-left:80px;
+}
+
+
+h1 {
+font-family:Georgia;
+font-size:24px;
+font-weight:bold;
+padding-bottom:10px;
+margin-top:20px;
+}
+
+h2 {
+font-family:arial;
+color:gray;
+font-size:12px;
+font-weight:bold;
+padding-bottom:20px;
+}
+
+p {
+font-family:georgia;
+font-size:16px;
+line-height:20px;
+}
+
+header {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	width:40%;
+	text-align:center;
+	}
+	
+header img {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+nav {
+    width:40%;
+    height:50px;
+    position:relative;
+    margin-top:10px;
+    margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+ }
+ nav li { 
+    float:left; 
+  }
+  nav li a { display:block; 
+    padding:15px 20px;
+    font-size:18px;
+    color:black;
+    text-decoration:none;
+  }
+  nav li a:hover { background-color:#DDD; 
+  }
+  
+ footer {
+ 	position:relative;
+ 	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+	}
+  
+ h3 {
+ 	display:inline;
+ 	}
+ 
+ h4 {
+ 	display:inline;
+ 	vertical-align: super;
+ 	font-family:georgia;
+	color:gray;
+	font-size:50px;
+	font-weight:bold;
+	font-style:italic;
+	border-width:10px;	
+	border-top-style:double;
+	border-bottom-style:double;
+ 	}
+
+footer p {
+	font-family: georgia;
+	font-size: 14px;
+	}
+
