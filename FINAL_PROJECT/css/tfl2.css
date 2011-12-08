@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+@font-face
+{
+    font-family: destroy_;
+    src: url('destroy_.ttf');
+}
+
+body {
+    background:black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    }
+
+div#content {
+  margin:0 auto;
+  width:950px;
+  height:1570px;
+  background:#FFF;
+  }
+
+div#content_about {
+  margin:0 auto;
+  width:950px;
+  height:1200px;
+  background:#FFF;
+	}
+
+div#content_music {
+  margin:0 auto;
+  width:950px;
+  height:1450px;
+  background:#FFF;
+	}
+
+header {
+	background-image: url("../images/index_top.png");
+    background-repeat: none;
+    height: 200px;
+    width: 100%;
+	}
+
+header#about {
+	background-image: url("../images/about_top.png");
+    background-repeat: none;
+    height: 200px;
+    width: 100%;
+	}
+
+header#music {
+	background-image: url("../images/music_top.png");
+    background-repeat: none;
+    height: 200px;
+    width: 100%;
+	}
+
+header#video {
+	background-image: url("../images/video_top.png");
+    background-repeat: none;
+    height: 200px;
+    width: 100%;
+	}
+
+nav {
+	background-image: url("../images/index_nav.png");
+    background-repeat: none;
+    height: 42px;
+    padding: 0;
+	text-align: center;
+	}
+
+nav#about {
+	background-image: url("../images/about_nav.png");
+    background-repeat: none;
+    height: 42px;
+    padding: 0;
+	text-align: center;
+	}
+	
+nav#music {
+	background-image: url("../images/music_nav.png");
+    background-repeat: none;
+    height: 42px;
+    padding: 0;
+	text-align: center;
+	}
+	
+nav#video {
+	background-image: url("../images/video_nav.png");
+    background-repeat: none;
+    height: 42px;
+    padding: 0;
+	text-align: center;
+	}
+
+ul#nav {
+    padding-top:5px;
+	}
+
+ul#nav li{
+	display:inline;
+    margin:0 6%;
+	}
+
+section#left_wide {
+	padding-right: 20px;
+	margin: 40px 0px 0px 40px;
+	width: 55%;
+	float: left;
+	}
+
+section#split {
+	padding-right: 20px;
+	margin: 40px 20px 0px 40px;
+	width: 40%;
+	float: left;
+	}
+
+article {
+	margin-top:3%;
+	margin-bottom:30px;
+	}
+
+article.posters {
+	margin-bottom:170px;
+	}
+	
+article.schedule_comingsoon {
+	margin-bottom:15px;
+	}
+	
+article.records {
+	margin-top:5%;
+	margin-bottom:25px;
+	}	
+	
+img.alignleft {
+	float: left; 
+	margin: 0 10px 10px 0
+	}	
+
+aside#mail_list{
+	background-color:white;
+	width:30%;
+ 	margin-left:62%;
+ 	margin-top:20px;
+ 	padding-left:25px;
+ 	padding-right:20px;
+	}
+	
+aside#photos{
+	background-color:#e3e3e3;
+	width:30%;
+ 	margin-left:63%;
+ 	margin-top:30px;
+ 	padding:20px;
+	}	
+
+aside{
+	background-color:#e3e3e3;
+	width:30%;
+ 	margin-left:63%;
+ 	padding:20px
+	}
+	
+aside img{
+	margin-bottom:30px;
+	}	
+	
+aside#split{
+	background-color:white;
+	width:40%;
+ 	margin-left:55%;
+ 	margin-top:85px;
+	}	
+	
+aside#split ol{
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	margin-left:20px;
+	margin-bottom:350px;
+	list-style-type:decimal;
+	color:black;
+	line-height: 22px;
+	font-weight: bold;
+	padding-bottom: none;
+}
+	
+.aside_photos img {
+	margin-bottom:10px;
+	}
+	
+p.aside_photos img{
+	width:285px;
+	height: 150px;
+	}
+	
+h1 {
+	font-family:destroy_;
+	font-size: 35px;
+	color:green;
+	}
+
+h1.linebreak {
+	padding-top:40px;
+	}
+
+aside h1  {
+	padding-bottom: 8%;
+	}
+	
+h2 {
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:black;
+	line-height: 22px;
+	font-weight: bold;
+	padding-bottom: none;
+	}
+
+h2#track_header{
+	padding-bottom:20px;
+	}
+
+h2.green {
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:green;
+	line-height: 22px;
+	font-weight: bold;
+	padding-bottom: none;
+	}
+
+p {
+	font-family:Arial, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:black;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	line-height: 18px;
+	}
+	
+p#no_space {
+	margin: 0px;
+	}
+
+
+footer {
+	text-align:center
+	}
+	
+a {
+	font-family: destroy_, Arial, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: black;
+	padding:0px 0px 0px 0px;
+	}
+
+a.mapit {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: green;
+	padding:0px 0px 0px 0px;
+	}
+
+a.mapit:visited {
+	text-decoration: none;
+	color: green;
+	}
+
+a:link {
+	text-decoration: none;
+	}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+	}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+	}
+
+a:active {
+	text-decoration: none;
+	color: green;
+	}
+
+a.selected:link {
+	color: green;
+	}
+
+a.selected:visited {
+	color: green;
+	}
+
+a.selected:hover {
+	color: green;
+	}
+	
+a.selected:active {
+	color: green;
+	}
+
+
+.footer {
+	font-family:Arial, Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color:white;
+	}
+
+.footer a {
+	font-family:Arial, Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color:green;
+	text-decoration:underline;
+	}
+
+.footer a:hover {
+	font-family:Arial, Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color:red;
+	}
+
